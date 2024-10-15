@@ -1,0 +1,16 @@
+# Ignorar todas las carpetas .idea en todos los subdirectorios
+.idea/
+
+# Ignorar todas las carpetas out en los subproyectos
+out/
+
+# Ignorar archivos de configuración específicos de IntelliJ IDEA
+*.iml
+
+# Ignorar archivos de construcción de Maven o Gradle
+target/
+build/
+
+# Ignorar archivos innecesarios del sistema
+.DS_Store
+Thumbs.db
