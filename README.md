@@ -23,6 +23,10 @@ Here are the topics I've learned so far:
 4. **Console Input and Output**
    - Reading user input using `Scanner`.
    - Printing output to the console with `System.out.println`.
+   - Learned how to format strings in Java using methods like `String.format()` and `printf() to create well-structured outputs.
+
+5. **Random Number Generation**
+   - Explored how to generate random numbers in Java using the Random class to create random integers for various purposes.
 
 ## 🛠 Tools and Technologies
 
