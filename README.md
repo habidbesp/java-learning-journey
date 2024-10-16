@@ -28,6 +28,15 @@ Here are the topics I've learned so far:
 5. **Random Number Generation**
    - Explored how to generate random numbers in Java using the Random class to create random integers for various purposes.
 
+6. ## Operators in Java
+- **Arithmetic Operators**: `+`, `-`, `*`, `/`, and `%`.
+- **Unary Operators**: Pre-increment, post-increment, pre-decrement, and post-decrement.
+- **Comparison Operators**:
+   - Logical AND (`&&`)
+   - Logical OR (`||`)
+   - Logical NOT (`!`)
+- **VIP Discount System**: A program designed to demonstrate the use of the operators learned.
+
 ## 🛠 Tools and Technologies
 
 - **Java** (JDK 17+)
