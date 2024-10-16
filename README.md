@@ -7,35 +7,35 @@ This repository contains all the concepts and exercises I've worked on as I star
 
 Here are the topics I've learned so far:
 
-1. **Introduction to Java**
+1. ###### **Introduction to Java**
    - Basic overview of Java and its structure.
    - First "Hello, World!" program.
 
-2. **Variables**
+2. ###### **Variables**
    - Understanding data types: `int`, `double`, `char`, etc.
    - Declaring and using variables.
    - How to assign values to variables.
 
-3. **Strings**
+3. ###### **Strings**
    - Introduction to `String` in Java.
    - Basic string operations: concatenation, length, and common methods.
 
-4. **Console Input and Output**
+4. ###### **Console Input and Output**
    - Reading user input using `Scanner`.
    - Printing output to the console with `System.out.println`.
    - Learned how to format strings in Java using methods like `String.format()` and `printf() to create well-structured outputs.
 
-5. **Random Number Generation**
+5. ###### **Random Number Generation**
    - Explored how to generate random numbers in Java using the Random class to create random integers for various purposes.
 
-6. ## Operators in Java
-- **Arithmetic Operators**: `+`, `-`, `*`, `/`, and `%`.
-- **Unary Operators**: Pre-increment, post-increment, pre-decrement, and post-decrement.
-- **Comparison Operators**:
-   - Logical AND (`&&`)
-   - Logical OR (`||`)
-   - Logical NOT (`!`)
-- **VIP Discount System**: A program designed to demonstrate the use of the operators learned.
+6. ###### Operators in Java
+   - **Arithmetic Operators**: `+`, `-`, `*`, `/`, and `%`.
+   - **Unary Operators**: Pre-increment, post-increment, pre-decrement, and post-decrement.
+   - **Comparison Operators**:
+      - Logical AND (`&&`)
+      - Logical OR (`||`)
+      - Logical NOT (`!`)
+   - **VIP Discount System**: A program designed to demonstrate the use of the operators learned.
 
 ## 🛠 Tools and Technologies
 
