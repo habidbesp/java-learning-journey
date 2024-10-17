@@ -40,6 +40,11 @@ Here are the topics I've learned so far:
    - **Book Lending System**: Program that checks if a student is eligible for a loan based on their student credentials or their proximity to the library.
    - **Sales Ticket Generator**: This code implements a simple sales ticket generator that calculates the total amount for a purchase based on the prices of various items and applies a discount if specified.
    - You can find more examples in the directory `Operators/src`.
+
+7. #### Decision Statements (17.10.2024 -)
+   - `if` and `else` statements.
+   - `else if` statement. 
+
 ## 🛠 Tools and Technologies
 
 - **Java** (JDK 17+)
