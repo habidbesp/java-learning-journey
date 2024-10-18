@@ -44,6 +44,9 @@ Here are the topics I've learned so far:
 7. #### Decision Statements (17.10.2024 -)
    - `if` and `else` statements.
    - `else if` statement. 
+   - Importance of the NOT operator `!` in decision statements.
+   - Ternary operator `condition ? resultIfTrue : resultIfFalse;`
+   - Nested ternary operator, (a compact way to evaluate multiple conditions).
 
 ## 🛠 Tools and Technologies
 
@@ -65,7 +68,6 @@ To run any code from this repository:
 ## 💡 Next Steps
 
 As I continue learning, I will cover more topics like:
-- Conditionals (if-else statements)
 - Loops (for, while, do-while)
 - Functions and Methods
 - Object-Oriented Programming
