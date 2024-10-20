@@ -28,7 +28,7 @@ Here are the topics I've learned so far:
 5. #### Random Number Generation
    - Explored how to generate random numbers in Java using the Random class to create random integers for various purposes.
 
-6. #### Operators in Java (16.10.2024 - 17.10.2024)
+6. #### Operators in Java
    - **Arithmetic Operators**: `+`, `-`, `*`, `/`, and `%`.
    - **Unary Operators**: Pre-increment, post-increment, pre-decrement, and post-decrement.
    - **Comparison Operators**:
@@ -41,7 +41,7 @@ Here are the topics I've learned so far:
    - **Sales Ticket Generator**: This code implements a simple sales ticket generator that calculates the total amount for a purchase based on the prices of various items and applies a discount if specified.
    - You can find more examples in the directory `Operators/src`.
 
-7. #### Decision Statements (17.10.2024 -)
+7. #### Decision Statements
    - `if` and `else` statements.
    - `else if` statement. 
    - Importance of the NOT operator `!` in decision statements.
