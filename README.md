@@ -39,14 +39,16 @@ Here are the topics I've learned so far:
    - **VIP Discount System**: A program designed to demonstrate the use of the operators learned.
    - **Book Lending System**: Program that checks if a student is eligible for a loan based on their student credentials or their proximity to the library.
    - **Sales Ticket Generator**: This code implements a simple sales ticket generator that calculates the total amount for a purchase based on the prices of various items and applies a discount if specified.
-   - You can find more examples in the directory `Operators/src`.
+   - You can find more examples and exercises in the directory: `Operators/src`.
 
 7. #### Decision Statements
    - `if` and `else` statements.
    - `else if` statement. 
    - Importance of the NOT operator `!` in decision statements.
-   - Ternary operator `condition ? resultIfTrue : resultIfFalse;`
-   - Nested ternary operator, (a compact way to evaluate multiple conditions).
+   - **Ternary operator** `condition ? resultIfTrue : resultIfFalse;`
+   - **Nested ternary operator**, (a compact way to evaluate multiple condition expressions).
+   - **Switch Statement**: The `switch` statement provides a more efficient and organized way to execute different blocks of code based on the value of a variable. Each case within the `switch` corresponds to a specific value, and a `default` case can be included to handle unexpected values.
+   - You can find more examples and exercises in the directory: `DecisionStatements/src`.
 
 ## 🛠 Tools and Technologies
 
@@ -68,9 +70,11 @@ To run any code from this repository:
 ## 💡 Next Steps
 
 As I continue learning, I will cover more topics like:
-- Loops (for, while, do-while)
-- Functions and Methods
-- Object-Oriented Programming
+- Loops (for, while, do-while).
+- Arrays.
+- Matrices.
+- Functions and Methods.
+- Object-Oriented Programming.
 
 Stay tuned for more updates!
 
