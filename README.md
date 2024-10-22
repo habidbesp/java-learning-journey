@@ -50,6 +50,13 @@ Here are the topics I've learned so far:
    - **Switch Statement**: The `switch` statement provides a more efficient and organized way to execute different blocks of code based on the value of a variable. Each case within the `switch` corresponds to a specific value, and a `default` case can be included to handle unexpected values.
    - You can find more examples and exercises in the directory: `DecisionStatements/src`.
 
+8. #### Loops in Java
+   - The `while` loop repeatedly executes a block of code as long as a specified condition is true. It checks the condition before executing the loop body, which means the code inside the loop may not run at all if the condition is false from the start.
+   - The `do-while` loop is similar to the while loop, but it guarantees that the loop body will be executed at least once. This is because the condition is checked after the execution of the loop body.
+   - The `for` loop is used for iterating over a range of values or a collection. It consists of three parts: initialization, condition, and iteration, all specified in a single line. This makes it a compact way to iterate when the number of iterations is known.
+   - You can find more examples and exercises in the directory: `Loops/src`.
+
+
 ## 🛠 Tools and Technologies
 
 - **Java** (JDK 17+)
