@@ -58,8 +58,13 @@ Here are the topics I've learned so far:
    - The `continue` statement: it skips the current iteration of a loop and proceeds to the next iteration. When continue is executed, the remaining code within the loop for that iteration is skipped, and the loop's condition is re-evaluated. This is helpful when you want to skip certain conditions without terminating the entire loop.
    - You can find more examples and exercises in the directory: `Loops/src`.
 
-## 🛠 Tools and Technologies
+9. ### Arrays
+   - **Declaring Arrays**: How to declare arrays in Java and understand their syntax.
+   - **Creating Space**: How to create an array with a specific size to store elements.
+   - **Iterating with For Loops**: How to iterate through the elements of an array using `for` loops.
+   - **Adding Values**: How to assign values to specific positions in an array.
 
+## 🛠 Tools and Technologies
 - **Java** (JDK 17+)
 - **IntelliJ IDEA** (my current IDE)
 - **Git** (for version control)
