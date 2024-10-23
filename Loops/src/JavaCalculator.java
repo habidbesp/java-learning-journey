@@ -64,7 +64,7 @@ public class JavaCalculator {
                 }
                 case 5 ->{
                     System.out.println("Closing Calculator... See you soon\n");
-                    isCalculatorInProsses = false8. 8. #### Loops in Java- ;
+                    isCalculatorInProsses = false;
                 }
                 default -> System.out.println("Invalid option...\n");
             }

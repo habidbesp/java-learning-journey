@@ -54,8 +54,9 @@ Here are the topics I've learned so far:
    - The `while` loop repeatedly executes a block of code as long as a specified condition is true. It checks the condition before executing the loop body, which means the code inside the loop may not run at all if the condition is false from the start.
    - The `do-while` loop is similar to the while loop, but it guarantees that the loop body will be executed at least once. This is because the condition is checked after the execution of the loop body.
    - The `for` loop is used for iterating over a range of values or a collection. It consists of three parts: initialization, condition, and iteration, all specified in a single line. This makes it a compact way to iterate when the number of iterations is known.
+   - The `break` statement: it is used to exit a loop or switch statement prematurely. When break is encountered, control is transferred to the statement immediately following the loop or switch, effectively terminating the current iteration. This is useful when you need to stop a loop based on a specific condition.
+   - The `continue` statement: it skips the current iteration of a loop and proceeds to the next iteration. When continue is executed, the remaining code within the loop for that iteration is skipped, and the loop's condition is re-evaluated. This is helpful when you want to skip certain conditions without terminating the entire loop.
    - You can find more examples and exercises in the directory: `Loops/src`.
-
 
 ## 🛠 Tools and Technologies
 
