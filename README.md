@@ -63,6 +63,8 @@ Here are the topics I've learned so far:
    - **Creating Space**: How to create an array with a specific size to store elements.
    - **Iterating with For Loops**: How to iterate through the elements of an array using `for` loops.
    - **Adding Values**: How to assign values to specific positions in an array.
+   - You can find more examples and exercises in the directory: `Arrays/src`.
+
 
 ## 🛠 Tools and Technologies
 - **Java** (JDK 17+)
