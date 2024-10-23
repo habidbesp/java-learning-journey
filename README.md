@@ -78,7 +78,6 @@ To run any code from this repository:
 ## 💡 Next Steps
 
 As I continue learning, I will cover more topics like:
-- Loops (for, while, do-while).
 - Arrays.
 - Matrices.
 - Functions and Methods.
