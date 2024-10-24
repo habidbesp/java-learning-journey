@@ -65,6 +65,23 @@ Here are the topics I've learned so far:
    - **Adding Values**: How to assign values to specific positions in an array.
    - You can find more examples and exercises in the directory: `Arrays/src`.
 
+10. ### Matrices (2D Array)
+    - **What is a 2D Array (Matrix)**: 2D array, matrix, rows and columns, array of arrays.
+    - **How to Declare and Create a 2D Array (Matrix)**: new, allocate memory, rows, columns.
+    - **2D Array with Simple Syntax**: shorthand syntax, simple initialization, array literal.
+    - **How to iterate Over a 2D Array (Matrix)**: iteration, nested loops, for loop, enhanced for loop, rows and columns.
+    - You can find more examples and exercises in the directory: `Matrices/src`.
+
+11. ### Functions
+    - **Introduction to Functions**: methods, functions, code block, modularity, reusability.
+    - **Basic structure**: public, private, returnType, function name, parameters, function body, return.
+    - **Access modifiers**: public, private, protected, access, encapsulation.
+    - **Functions with a return value**: int, String, boolean, double, return value, result.
+    - **functions** (no return value): void.
+    - **Functions with parameters**: arguments, parameters, input, variables.
+    - **Recursive functions**: recursion, calls itself, base case, stack overflow.
+    - **Best practices for writing functions**: readability, reusability, clean code, clear naming, function size.
+    - You can find more examples and exercises in the directory: `Functions/src`.
 
 ## 🛠 Tools and Technologies
 - **Java** (JDK 17+)
