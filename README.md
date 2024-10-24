@@ -102,10 +102,7 @@ To run any code from this repository:
 ## 💡 Next Steps
 
 As I continue learning, I will cover more topics like:
-- Arrays.
-- Matrices.
-- Functions and Methods.
-- Object-Oriented Programming.
+- Classes and Object-Oriented Programming.
 
 Stay tuned for more updates!
 
