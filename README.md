@@ -82,6 +82,13 @@ Here are the topics I've learned so far:
     - **Recursive functions**: recursion, calls itself, base case, stack overflow.
     - **Best practices for writing functions**: readability, reusability, clean code, clear naming, function size.
     - You can find more examples and exercises in the directory: `Functions/src`.
+    
+12. ### Classes 
+    - **Class and Object Creation**: instance, new keyword.
+    - **Constructor and Overloading**: initialize, multiple constructors, flexibility.
+    - this` **Operator**: current object reference, distinguish fields, invoke constructors
+    - **Packages**: organization, namespaces, modularity, access control.
+
 
 ## 🛠 Tools and Technologies
 - **Java** (JDK 17+)
