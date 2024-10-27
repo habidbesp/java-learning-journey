@@ -12,8 +12,11 @@ public class TestArithmetic {
     public static void main(String[] args) {
         System.out.println("*** Arithmetic Example ***");
         var arithmetic1 = new Arithmetic(5, 7);
+
+        // calling Getter method: allows access to the value "operand1"
         System.out.println("Attribute operand1: " + arithmetic1.getOperand1());
 
+        // calling setter method: allows modification of the value "operand1" and "operand2"
         arithmetic1.setOperand1(10);
         arithmetic1.setOperand2(15);
         arithmetic1.sum();
@@ -23,6 +26,5 @@ public class TestArithmetic {
         System.out.println();
         var arithmetic2 = new Arithmetic(12, 13);
         arithmetic2.sum();
-
     }
 }

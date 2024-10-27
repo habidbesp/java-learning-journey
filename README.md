@@ -88,6 +88,7 @@ Here are the topics I've learned so far:
     - **Constructor and Overloading**: initialize, multiple constructors, flexibility.
     - this` **Operator**: current object reference, distinguish fields, invoke constructors
     - **Packages**: organization, namespaces, modularity, access control.
+    - **Encapsulation**: Private Attributes, access modifiers, getters/setters.
 
 
 ## 🛠 Tools and Technologies
