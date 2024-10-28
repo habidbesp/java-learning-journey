@@ -86,9 +86,10 @@ Here are the topics I've learned so far:
 12. ### Classes 
     - **Class and Object Creation**: instance, new keyword.
     - **Constructor and Overloading**: initialize, multiple constructors, flexibility.
-    - this` **Operator**: current object reference, distinguish fields, invoke constructors
+    - `this` **Operator**: current object reference, distinguish fields, invoke constructors
     - **Packages**: organization, namespaces, modularity, access control.
     - **Encapsulation**: Private Attributes, access modifiers, getters/setters.
+    - **Inheritance**: Superclass, Subclass, Method Overriding, Polymorphism
 
 
 ## 🛠 Tools and Technologies
@@ -110,7 +111,7 @@ To run any code from this repository:
 ## 💡 Next Steps
 
 As I continue learning, I will cover more topics like:
-- Classes and Object-Oriented Programming.
+- Object-Oriented Programming.
 
 Stay tuned for more updates!
 

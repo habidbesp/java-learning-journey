@@ -7,7 +7,7 @@ enabling customization while maintaining shared functionality. Inheritance helps
 "is-a" relationships, making it easier to organize and manage code.
 */
 
-package animales;
+package animals;
 
 // superclass "Animal"
 public class Animal {

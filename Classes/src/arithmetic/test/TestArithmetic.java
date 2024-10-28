@@ -1,4 +1,4 @@
-package test;
+package arithmetic.test;
 
 //A package is a collection of related classes, interfaces,
 // and sub-packages grouped together. It helps in organizing classes
