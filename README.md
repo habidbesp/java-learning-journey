@@ -90,6 +90,8 @@ Here are the topics I've learned so far:
     - **Packages**: organization, namespaces, modularity, access control.
     - **Encapsulation**: Private Attributes, access modifiers, getters/setters.
     - **Inheritance**: Superclass, Subclass, Method Overriding, Polymorphism
+    - **Object class**: method `toString()` "method overriding".
+    - **Static Context**: static, class variable, static method, static block, accessing static members
 
 
 ## 🛠 Tools and Technologies
