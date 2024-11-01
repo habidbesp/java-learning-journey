@@ -89,9 +89,25 @@ Here are the topics I've learned so far:
     - `this` **Operator**: current object reference, distinguish fields, invoke constructors
     - **Packages**: organization, namespaces, modularity, access control.
     - **Encapsulation**: Private Attributes, access modifiers, getters/setters.
-    - **Inheritance**: Superclass, Subclass, Method Overriding, Polymorphism
+    - **Inheritance**: Superclass, Subclass, Method Overriding, Polymorphism.
     - **Object class**: method `toString()` "method overriding".
-    - **Static Context**: static, class variable, static method, static block, accessing static members
+    - **Static Context**: static, class variable, static method, static block, accessing static members.
+    - You can find more examples and exercises in the directory: `Classes/src`.
+
+
+13. ### Advanced Topics 
+    - **Varargs (Variable-Length Arguments)**: `Ellipsis ( ... ), Flexible parameters, Argument list, Array-like structure, Single varargs rule, Last parameter requirement.
+    - **For-each loop**: Enhanced for loop, Array iteration, Syntax (e.g., `for (Type element : collection)`).
+    - **Abstract Class**: Abstract Methods, Cannot be instantiated, Polymorphism, Encapsulation, Partial implementation, Method overriding, Contract for subclasses, Template method pattern.
+    - **Interfaces**: Abstract type, Method declaration, Multiple inheritance, Contract, Default and Static methods, Polymorphism.
+    - **JavaBeans**: Reusable components, No-argument constructor, Encapsulation, Getter and setter methods, Serialization.
+    - **Exception Handling**: try, catch, finally block, Runtime exceptions, Error handling,
+    - **Collections**: ArrayList, Generics parameterized, Lambda Functions - `forEach()`, `asList()` method.
+    - **Set**: No duplicates, Interface, Efficient lookup - `TreeSet` with time complexity of `O(log n)` -, Unordered (general), Key Methods: `add()`, `remove()
+    - **Maps**: Key-Value Pairs, No Duplicate Keys, Nullable Values, Methods: put, remove, Separable iteration with `forEach(key, value)`.
+    - **Snacks Machine**: A console application to practice various advanced topics.
+    - You can find more examples and exercises in the directory: `AdvancedTopics/src`.
+
 
 
 ## 🛠 Tools and Technologies

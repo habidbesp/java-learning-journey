@@ -6,7 +6,7 @@ for subclasses to define.*/
 
 public class AbstractClass {
     public static void main(String[] args) {
-        GeometricFigure rectangle = new Ractangle();
+        GeometricFigure rectangle = new Rectangle();
         rectangle.draw();
 
         GeometricFigure circle = new Circle();
@@ -21,7 +21,7 @@ abstract class GeometricFigure { // not able to instantiate
     public abstract void draw();
 }
 
-class Ractangle extends GeometricFigure{
+class Rectangle extends GeometricFigure{
     @Override // implementation
     public void draw(){
         System.out.println("A Rectangle must be drawn");
