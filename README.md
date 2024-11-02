@@ -94,7 +94,6 @@ Here are the topics I've learned so far:
     - **Static Context**: static, class variable, static method, static block, accessing static members.
     - You can find more examples and exercises in the directory: `Classes/src`.
 
-
 13. ### Advanced Topics 
     - **Varargs (Variable-Length Arguments)**: `Ellipsis ( ... ), Flexible parameters, Argument list, Array-like structure, Single varargs rule, Last parameter requirement.
     - **For-each loop**: Enhanced for loop, Array iteration, Syntax (e.g., `for (Type element : collection)`).
@@ -107,6 +106,11 @@ Here are the topics I've learned so far:
     - **Maps**: Key-Value Pairs, No Duplicate Keys, Nullable Values, Methods: put, remove, Separable iteration with `forEach(key, value)`.
     - **Snacks Machine**: A console application to practice various advanced topics.
     - You can find more examples and exercises in the directory: `AdvancedTopics/src`.
+
+14. ### File Handling
+    - **Creating Filer**: FileWriter, BufferedWriter, PrintWriter, IOException
+    - **Reading Files**: BufferedReader, FileReader, `readLine()`, IOException, `File.exists()`.
+    - 
 
 
 
