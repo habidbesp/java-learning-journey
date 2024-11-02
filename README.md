@@ -110,8 +110,6 @@ Here are the topics I've learned so far:
 14. ### File Handling
     - **Creating Filer**: FileWriter, BufferedWriter, PrintWriter, IOException
     - **Reading Files**: BufferedReader, FileReader, `readLine()`, IOException, `File.exists()`.
-    - 
-
 
 
 ## 🛠 Tools and Technologies
