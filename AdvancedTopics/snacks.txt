@@ -1,0 +1,5 @@
+1,Chips,1.55
+2,Soda,1.75
+3,Sandwich,3.65
+4,Chocolate,2.34
+5,Nachos,5.65

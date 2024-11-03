@@ -1,4 +1,4 @@
-package snacks_machine;
+package snack_machine;
 
 import java.util.ArrayList;
 import java.util.List;

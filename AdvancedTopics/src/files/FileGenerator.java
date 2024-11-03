@@ -18,7 +18,7 @@ public class FileGenerator {
                 var output = new PrintWriter(new FileWriter(file));
                 // The file was saved on the hard drive
                 output.close();
-                System.out.println("The file was created");
+                System.out.println("File created successfully.");
             }
         } catch (IOException e) {
             System.out.println("Error at creating file: " + e.getMessage());

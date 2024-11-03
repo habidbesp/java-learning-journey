@@ -110,6 +110,9 @@ Here are the topics I've learned so far:
 14. ### File Handling
     - **Creating Filer**: FileWriter, BufferedWriter, PrintWriter, IOException
     - **Reading Files**: BufferedReader, FileReader, `readLine()`, IOException, `File.exists()`.
+    - **Snacks Machine Files**: A console application implementing a "multi-tier architecture" and file handling, which stores user-provided data in a file on the hard drive.
+    - You can find the code for **Snacks Machine Files** in `AdvancedTopics/src/snack_machine_file`. 
+    - You can find more examples and exercises in the directory: `AdvancedTopics/src/files`.
 
 
 ## 🛠 Tools and Technologies

@@ -1,4 +1,4 @@
-package snacks_machine;
+package snack_machine;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
