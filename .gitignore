@@ -14,3 +14,5 @@ build/
 # Ignorar archivos innecesarios del sistema
 .DS_Store
 Thumbs.db
+
+/FitnessZone/src/main/resources/config.properties
