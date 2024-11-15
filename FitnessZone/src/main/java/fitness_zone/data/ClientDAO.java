@@ -78,37 +78,36 @@ public class ClientDAO implements  IClientDAO{
 
     @Override
     public boolean modifyClient(Client client) {
+        PreparedStatement ps;
+        var sql = "UPDATE client SET firstname=?, lastname=?, membership=?" +
+                " WHERE id = ?" ;
+
+        try(Connection connection = getConnection()){
+            ps = connection.prepareStatement(sql);
+            ps.setString(1, client.getFirstname());
+            ps.setString(2, client.getLastname());
+            ps.setInt(3, client.getMembership());
+            ps.setInt(4, client.getId());
+            ps.execute();
+            return true;
+        } catch (Exception e) {
+            System.out.println("Error while modifying client: " + e.getMessage());
+        }
         return false;
     }
 
     @Override
     public boolean deleteClient(Client client) {
+        PreparedStatement ps;
+        var sql = "DELETE FROM client WHERE id = ?";
+        try(Connection connection = getConnection()){
+            ps = connection.prepareStatement(sql);
+            ps.setInt(1, client.getId());
+            ps.execute();
+            return true;
+        } catch (Exception e) {
+            System.out.println("Error while deleting the client " + e.getMessage());
+        }
         return false;
-    }
-
-    public static void main(String[] args) {
-        // List clients
-        IClientDAO clientDao = new ClientDAO();
-
-        // Look for a client by id
-//        var client1 = new Client();
-//        System.out.println("Client before the lookup: " + client1);
-//        var clientFound = clientDao.getClientById(client1);
-//        if(clientFound)
-//            System.out.println("Client was found: " + client1);
-//        else
-//            System.out.println("Client with id " + client1.getId() + " not found."  );
-
-        // Add client
-//        var newClient = new Client("Daniel", "Ortiz", 300);
-//        var addedClient = clientDao.addClient(newClient);
-//        if(addedClient)
-//            System.out.println("Added client: " + newClient );
-//        else
-//            System.out.println("Client was not added to DB: " + newClient);
-
-        System.out.println("*** List Clients ***");
-        var clients = clientDao.listClients();
-        clients.forEach(System.out::println);
     }
 }
