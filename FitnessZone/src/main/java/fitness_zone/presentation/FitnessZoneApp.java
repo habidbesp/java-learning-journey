@@ -37,10 +37,11 @@ public class FitnessZoneApp {
         System.out.print("""
                 Menu:
                 1. List all clients
-                2. Register a client
-                3. Update client info
-                4. Delete a client
-                5. Logout (close app)
+                2. Search a client
+                3. Register a client
+                4. Update client info
+                5. Delete a client
+                6. Logout (close app)
                 Choose an option:\s""");
         return Integer.parseInt(console.nextLine());
     }
@@ -49,10 +50,11 @@ public class FitnessZoneApp {
         var exit = false;
         switch (option){
             case 1 -> listAllClients(clientDAO);
-            case 2 -> registerClient(console, clientDAO);
-            case 3 -> updateClientInfo(console, clientDAO);
-            case 4 -> deleteClient(console, clientDAO);
-            case 5 -> {
+            case 2 -> searchClient(console, clientDAO);
+            case 3 -> registerClient(console, clientDAO);
+            case 4 -> updateClientInfo(console, clientDAO);
+            case 5 -> deleteClient(console, clientDAO);
+            case 6 -> {
                 System.out.println("Thanks for visiting Fitness Zone, come back anytime!");
                 exit = true;
             }
@@ -63,7 +65,33 @@ public class FitnessZoneApp {
 
     private static void listAllClients(IClientDAO clientDAO){
         var clients = clientDAO.listClients();
+        System.out.println("--- Clients List ---");
         clients.forEach(System.out::println);
+    }
+
+    private static void searchClient(Scanner console, IClientDAO clientDAO){
+        try {
+            System.out.print("Provide client id: ");
+            var idInput = console.nextLine();
+            if(idInput.trim().isEmpty())
+                throw new Exception("id cannot be empty.");
+            int id;
+            try{
+                id = Integer.parseInt(idInput);
+            } catch (NumberFormatException e) {
+                throw new Exception("Id must be a valid number.");
+            }
+            var clientById = new Client(id);
+            var isClientInDb = clientDAO.getClientById(clientById);
+            if(isClientInDb)
+                System.out.println(clientById);
+            else
+                System.out.println("Client not found");
+
+        } catch (Exception e) {
+            throw new RuntimeException(e.getMessage());
+        }
+
     }
 
     private static void registerClient(Scanner console, IClientDAO clientDAO){
@@ -104,30 +132,40 @@ public class FitnessZoneApp {
     }
 
     private static void updateClientInfo(Scanner console, IClientDAO clientDAO){
-        System.out.print("Provide client's id: ");
-        var id = Integer.parseInt(console.nextLine());
-        var clientById = new Client(id);
-        var isClientInDb = clientDAO.getClientById(clientById);
-
-
-        if(isClientInDb){
-            System.out.println();
-            var exit = false;
-            while (!exit){
-                try{
-                    var option = UpdateUserHelper.showUpdateUserMenu(console);
-                    exit = UpdateUserHelper.executeOptionsMenu(option, console, clientDAO, clientById);
-                }
-                catch (Exception e) {
-                    System.out.println("An error has occurred: " + e.getMessage());
-                }
-                finally {
-                    System.out.println(); // Print a new line after each operation
+        try {
+            System.out.print("Provide client id: ");
+            var idInput = console.nextLine();
+            if(idInput.trim().isEmpty())
+                throw new Exception("id cannot be empty.");
+            int id;
+            try{
+                id = Integer.parseInt(idInput);
+            } catch (NumberFormatException e) {
+                throw new Exception("Id must be a valid number.");
+            }
+            var clientById = new Client(id);
+            var isClientInDb = clientDAO.getClientById(clientById);
+            if(isClientInDb){
+                System.out.println();
+                var exit = false;
+                while (!exit){
+                    try{
+                        var option = UpdateUserHelper.showUpdateUserMenu(console);
+                        exit = UpdateUserHelper.executeOptionsMenu(option, console, clientDAO, clientById);
+                    }
+                    catch (Exception e) {
+                        System.out.println("An error has occurred: " + e.getMessage());
+                    }
+                    finally {
+                        System.out.println(); // Print a new line after each operation
+                    }
                 }
             }
-        }
-        else{
-            System.out.println("Client with id " + clientById.getId() + " not found."  );
+            else{
+                System.out.println("Client with id " + clientById.getId() + " not found."  );
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e.getMessage());
         }
     }
 
