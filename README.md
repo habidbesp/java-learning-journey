@@ -131,11 +131,6 @@ To run any code from this repository:
 2. Open the folder of the topic you want to explore.
 3. Run the code using **IntelliJ IDEA** or any other preferred IDE.
 
-## 💡 Next Steps
-
-As I continue learning, I will cover more topics like:
-- Object-Oriented Programming.
-
 Stay tuned for more updates!
 
 ## 🙋‍♂️ Contact
